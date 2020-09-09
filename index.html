@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Quiz Code Challenge!</title>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header id="nav">
+		<section class="left">
+			<a onclick="getScore()" href="#">
+				<h4>View Highscore</h4>
+			</a>
+		</section>
+		<section class="right">
+			<h4>Time: <span id="timeLeft">0</span></h4>
+		</section>
+	</header>
+	<main id="quiz">
+		<section id="quizBody">
+			<h1>
+				Quiz Code Challenge!
+			</h1>
+			<h3>
+				Try to answer the following code-related questions within the time limit. Keep in mind that incorrent
+				answers will penalize your scoretime by ten seconds!
+			</h3>
+			<button onclick="start()">Start</button>
+		</section>
+	</main>
+</body>
+
+</html>
